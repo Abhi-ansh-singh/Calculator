@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculater</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center"> 
+      <!-- Calculator -->   
+    <main class="cantiner">
+      <h6 style="color:#3b82f6; text-align: right;font-family: 'Tektur', cursive;">Calculator</h6>
+      <input type="text" placeholder="0" id="display"><hr>
+      <div id="input">
+      <button class="btn border border-black items inp_num">7</button>
+      <button class="btn border border-black items inp_num">8</button>
+      <button class="btn border border-black items inp_num">9</button>
+      <button class="btn border border-black items num_fun" id="type">+/-</button>
+      <button class="btn border border-black items num_fun" id="back">AC</button>
+      <button class="btn border border-black items inp_num">4</button>
+      <button class="btn border border-black items inp_num">5</button>
+      <button class="btn border border-black items inp_num">6</button>
+      <button class="btn border border-black items cal"id="multiply">*</button>
+      <button class="btn border border-black items cal"id="divide">/</button>
+      <button class="btn border border-black items inp_num">1</button>
+      <button class="btn border border-black items inp_num">2</button>
+      <button class="btn border border-black items inp_num">3</button>
+      <button class="btn border border-black items cal"id="sub">-</button>
+      <button class="btn border border-black items cal"id="clear">C</button>
+      <button class="btn border border-black items inp_num">0</button>
+      <button class="btn border border-black items inp_num">.</button>
+      <button class="btn border border-black items cal"id="addition">+</button>
+      <button class="btn border border-black items " id="enter">=</button>
+    </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

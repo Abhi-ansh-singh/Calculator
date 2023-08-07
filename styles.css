@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+margin: 20% 10% 0% 10%;
+}
+
+.cantiner {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #0284c7;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#input {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-rows: repeat(4,20%); */
+    gap: 5px;
+    font-family: 'Tektur', cursive;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.2);
+
+}
+
+#enter {
+    grid-area: 3 / 5/ span 2 / span 1;
+}
+
+#display {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    border: none;
+    font-family: 'Tektur', cursive;
+    font-size: 30px;
+    text-align: right;
+    /* color: #ffffff; */
+    background-color: transparent
+}
+
+input::placeholder {
+    /* color: #ffffff; */
+}
+
+.num_fun {
+    background-color: #94a3b8;
+    color: aliceblue;
+}
+
+.inp_num {
+    font-size: medium;
+    background-color: #cbd5e1;
+    color: #0369a1;
+}
+
+#clear {
+    background-color: #dc2626;
+    color: aliceblue;
+}
+
+#enter {
+    background-color: #0284c7;
+    color: aliceblue;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.cal {
+    background-color: #334155;
+    color: aliceblue;
+}
+
+.inp_num:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #94a3b8;
+}
+
+#enter:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0369a1;
+}
+
+#clear:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #b91c1c;
+}
+
+.cal:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #1e293b;
+}
+
+.num_fun:hover {
+    background-color: #64748b;
+    color: aliceblue;
+}
